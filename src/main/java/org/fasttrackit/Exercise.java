@@ -22,7 +22,7 @@ public class Exercise {
 
     public double divide(double A, double B){
         double result = A / B;
-        System.out.println(" Rezultatul impartirii este" + result);
+        System.out.println(" Rezultatul impartirii este " + result);
         return result;
 
     }

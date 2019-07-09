@@ -1,7 +1,5 @@
 package org.fasttrackit;
 
-import javax.xml.transform.Result;
-
 public class LogicalOp {
 
 //first exercise
@@ -63,17 +61,32 @@ public class LogicalOp {
 //       System.out.println("The sum is = " + sum);
 //       }
 
-    public void sum (int nr){
-        int sum = 0;
-        int totalnr = 0;
-        for(int i = nr; i <= 100; i++) {
-            sum += i;
-            totalnr++;
-        }
-        double medie = (double)sum/totalnr;
-        System.out.println("Media este = " + medie);
+
+//     eight exercise below
+
+//    public void sum (int nr){
+//        int sum = 0;
+//        int totalnr = 0;
+//        for(int i = nr; i <= 100; i++) {
+//            sum += i;
+//            totalnr++;
+//        }
+//        double medie = (double)sum/totalnr;
+//        System.out.println("Media este = " + medie);
+//        }
+
+
+//exercitiul 9
+
+    public void printPattern (int n){
+        for(int i = n; i>0; i--){
+            for(int j = 1; j <= i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
+}
 
 
 
